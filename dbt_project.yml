@@ -24,4 +24,11 @@ clean-targets:         # directories to be removed by `dbt clean`
     - "target"
     - "dbt_modules"
 
+models:
+  dbt_id_resolution:
+    base:
+      schema: dbt_id_resolution
+    transform:
+      schema: dbt_id_resolution
+
 
